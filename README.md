@@ -191,14 +191,14 @@ python main.py
 
 ---
 
-## 作者
+## 相关链接
 
-| | |
+| 站点 | 地址 |
 |:---|:---|
-| 名称 | 竹烨oО柠檬茶 / Zhrradiant LemonTea |
-| 网站 | [zhrradiant.com](https://zhrradiant.com) |
-| Bilibili | [space.bilibili.com/10698756](https://space.bilibili.com/10698756) |
-| Steam | [steamcommunity.com/profiles/76561198109766088](https://steamcommunity.com/profiles/76561198109766088) |
+| 竹烨柠檬（主站） | [zhrradiant.com](https://zhrradiant.com) |
+| 竹烨柠檬小世界 | [zhrradiant.cn](https://zhrradiant.cn) |
+| 网页版服务器状态 | [l4d2srv.com](https://l4d2srv.com) |
+| Zhrradiant SrvMap | [github.com/Zhrradiant/zhrradiant-srvmap](https://github.com/Zhrradiant/zhrradiant-srvmap) |
 
 ---
 
