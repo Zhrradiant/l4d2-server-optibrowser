@@ -1,7 +1,7 @@
 <h1 align="center">L4D2 Server OptiBrowser</h1>
 
 <p align="center">
-  <strong>L4D2SOB</strong> — L4D2 服务器浏览与管理桌面客户端
+  <strong>L4D2SOB</strong> — L4D2 服务器浏览与收藏桌面客户端
 </p>
 
 <p align="center">
