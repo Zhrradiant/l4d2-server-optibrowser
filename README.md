@@ -14,7 +14,7 @@
 
 > **项目状态：已归档，不再维护**
 >
-> 这个项目是我为自己查 L4D2 服务器方便而写的工具，后来陆续加了不少功能。现在我没有精力继续维护了，把代码开源出来，给有需要的朋友自行取用、修改。如果有人愿意 fork 继续开发，那更好。
+> 这个项目是我为自己查 L4D2 服务器方便而写的工具，后来陆续加了不少功能。重心现在放到 ZSM 等其他项目，本项目已暂停维护，把代码开源出来，给有需要的朋友自行取用、修改。
 
 ---
 
@@ -86,8 +86,8 @@ L4D2 Server OptiBrowser 是一个 Windows 桌面工具。你不用打开浏览�
 ### 系统功能
 
 - **中英双语** — 支持中文/English 切换
-- **多主题** — 14 种 ttkbootstrap 主题可选
-- **窗口样式** — 支持浅色/深色/Win7 三种标题栏样式
+- **多主题** — 多种 ttkbootstrap 主题可选
+- **窗口样式** — 支持浅色/深色等多种标题栏样式
 - **字体设置** — 可选择系统任意字体
 - **系统托盘** — 关闭时最小化到托盘
 - **开机启动** — 可创建启动快捷方式，配合托盘功能隐藏启动
@@ -102,7 +102,7 @@ L4D2 Server OptiBrowser 是一个 Windows 桌面工具。你不用打开浏览�
 |:---|:---|
 | 语言 | Python 3.x |
 | GUI 框架 | Tkinter + ttkbootstrap |
-| 窗口样式 | pywinstyles（浅色/深色/Win7 标题栏） |
+| 窗口样式 | pywinstyles（标题栏） |
 | 服务器查询 | python-a2s（A2S 协议）、Steam Master Server（UDP） |
 | Steam API | ISteamRemoteStorage（工坊合集/物品详情） |
 | 网络请求 | requests |
@@ -169,7 +169,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-打包成 exe 的话，入口为 `main.py`，需要把 `images/`、`icon.ico`、`about.png` 一起打包。
+打包成 exe 的话，入口为 `main.py`，需要把 `images/`、`icon.ico`、`about.png` 一起打包。推荐使用 [Nuitka](https://nuitka.net) 进行打包。
 
 ---
 
@@ -178,14 +178,14 @@ python main.py
 - **服务器列表**：Steam Master Server（`hl2master.steampowered.com:27011`）或云端 CSV 文件
 - **地图数据库**：云端 CSV 文件（数据来自 [腾讯文档 - 求生之路2第三方地图列表](https://docs.qq.com/sheet/DWkxueVpPb3FtUUha?tab=BB08J2)）
 - **版本信息**：云端 CSV 文件
-- **工坊数据**：Steam Web API（`ISteamRemoteStorage`）
+- **工坊数据**：Steam Web API
 
 ---
 
 ## 已知局限
 
 - 仅支持 Windows（依赖 pywinstyles、pywin32 等 Windows 专属库）
-- 查询速度依赖网络环境，暴力模式可能触发某些服务器的速率限制
+- 查询速度依赖网络环境，暴力模式可能触发某些网络环境限制
 - 三方图数据库依赖云端 CSV 更新，地图信息可能滞后
 - Steam Web API 在国内网络环境下可能不稳定
 
@@ -193,11 +193,12 @@ python main.py
 
 ## 作者
 
-竹烨oО柠檬茶 / Zhrradiant LemonTea
-
-- [zhrradiant.com](https://zhrradiant.com)
-- [Bilibili](https://space.bilibili.com/10698756)
-- [Steam](https://steamcommunity.com/profiles/76561198109766088)
+| | |
+|:---|:---|
+| 名称 | 竹烨oО柠檬茶 / Zhrradiant LemonTea |
+| 网站 | [zhrradiant.com](https://zhrradiant.com) |
+| Bilibili | [space.bilibili.com/10698756](https://space.bilibili.com/10698756) |
+| Steam | [steamcommunity.com/profiles/76561198109766088](https://steamcommunity.com/profiles/76561198109766088) |
 
 ---
 
