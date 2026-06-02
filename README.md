@@ -169,7 +169,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-打包成 exe 的话，入口为 `main.py`，需要把 `images/`、`icon.ico`、`about.png` 一起打包。推荐使用 [Nuitka](https://nuitka.net) 进行打包。
+打包成 exe 的话，入口为 `main.py`，需要把 `images/`、`icon.ico`、`about.png`、`transparent_16x16.ico`、`transparent_1x1.png` 一起打包。推荐使用 [Nuitka](https://nuitka.net) 进行打包。
 
 ---
 
