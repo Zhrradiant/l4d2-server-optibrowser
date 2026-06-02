@@ -148,6 +148,8 @@ l4d2sob_start/
 │   └── steam.png
 ├── icon.ico                  # 应用程序图标
 ├── about.png                 # 关于页 Logo
+├── transparent_16x16.ico     # 子窗口图标
+├── transparent_1x1.png       # 透明占位素材
 ├── servers.txt               # 服务器列表（可选）
 ├── blocked.txt               # 屏蔽列表（运行时生成）
 └── server_checker_config.json # 用户配置文件（运行时生成）
